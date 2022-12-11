@@ -1,3 +1,9 @@
+:root {
+    --heading-font-color: #000;
+    --font-color: #282121;
+    --background-color: #f5f5f5;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +11,32 @@
 
 html,
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 100%;
+    color: var(--font-color);
+    background: var(--background-color);
+}
+
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: var(--heading-font-color);
+}
+
+.about-me,
+footer {
+    background: #7CA6A6;
+    background: -webkit-linear-gradient(right, #7CA6A6, #89A1DC);
+    background: -moz-linear-gradient(right, #7CA6A6, #89A1DC);
+    background: linear-gradient(to left, #7CA6A6, #89A1DC);
+}
+
+.projects_grid__item {
+    border: 1px solid var(--font-color);
+}
+
+.project-preview img {
+    border-bottom: 1px solid var(--font-color);
+}
+
+.link-icon svg {
+    fill: var(--heading-font-color);
 }
