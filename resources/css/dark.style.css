@@ -1,0 +1,48 @@
+:root {
+    --heading-font-color: #f5f5f5;
+    --font-color: #c2c3c4;
+    --background-color: #282121;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    color: var(--font-color);
+    background: var(--background-color);
+}
+
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: var(--heading-font-color);
+}
+
+header,
+footer {
+    background: #040136;
+    background: -moz-linear-gradient(90deg, #040136 0%, #090979 35%, #005363 100%);
+    background: -webkit-linear-gradient(90deg, #040136 0%, #090979 35%, #005363 100%);
+    background: linear-gradient(90deg, #040136 0%, #090979 35%, #005363 100%);
+}
+
+.projects_grid__item {
+    border: 1px solid var(--font-color);
+}
+
+.project-preview img {
+    border-bottom: 1px solid var(--font-color);
+}
+
+.link-icon svg {
+    fill: var(--heading-font-color);
+}
+
+.icon img,
+.link-icon img {
+    filter: invert(100%) sepia(9%) saturate(120%) hue-rotate(328deg) brightness(111%) contrast(92%);
+    -webkit-filter: invert(100%) sepia(9%) saturate(120%) hue-rotate(328deg) brightness(111%) contrast(92%);
+}

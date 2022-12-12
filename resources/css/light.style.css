@@ -21,7 +21,7 @@ h4, h5, h6 {
     color: var(--heading-font-color);
 }
 
-.about-me,
+header,
 footer {
     background: #7CA6A6;
     background: -webkit-linear-gradient(right, #7CA6A6, #89A1DC);
